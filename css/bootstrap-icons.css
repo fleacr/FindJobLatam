@@ -19,6 +19,12 @@ url("../fonts/bootstrap-icons.woff?30af91bf14e37666a085fb8a161ff36d") format("wo
   -moz-osx-font-smoothing: grayscale;
 }
 
+.logo-latam:before {
+  content: url("https://pbs.twimg.com/profile_images/1552663993050882048/4GcfMlUe_400x400.jpg");
+  height: 2px;
+  width: 2px;
+}
+
 .bi-123::before { content: "\f67f"; }
 .bi-alarm-fill::before { content: "\f101"; }
 .bi-alarm::before { content: "\f102"; }
