@@ -25,6 +25,8 @@ url("../fonts/bootstrap-icons.woff?30af91bf14e37666a085fb8a161ff36d") format("wo
 }
 .profilePic{
   border-radius: 12px;
+  min-width: 280px;
+  min-height: 280px;
 }
 .employeeDesc{
   text-align: center;
