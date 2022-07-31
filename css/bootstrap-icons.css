@@ -20,9 +20,14 @@ url("../fonts/bootstrap-icons.woff?30af91bf14e37666a085fb8a161ff36d") format("wo
 }
 
 .logo-latam:before {
-  content: url("https://i.imgur.com/3uYMDu7.gif");
-  height: 2px;
-  width: 2px;
+  /* content: url("https://i.imgur.com/3uYMDu7.gif"); */
+  content: url('../images/Logo-FindJobLatam.gif');
+}
+.profilePic{
+  border-radius: 12px;
+}
+.employeeDesc{
+  text-align: center;
 }
 
 .bi-123::before { content: "\f67f"; }
