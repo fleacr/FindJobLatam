@@ -39,8 +39,10 @@ https://templatemo.com/tm-575-leadership-event
 
 body {
     background: var(--white-color);
-    font-family: var(--body-font-family); 
+    font-family: var(--body-font-family);
+
 }
+
 
 
 /*---------------------------------------
@@ -495,7 +497,7 @@ strong {
 .hero-text {
   position: absolute;
   z-index: 2;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -872,7 +874,7 @@ strong {
 -----------------------------------------*/
 .site-footer {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
 }
 
 .site-footer .navbar-brand {

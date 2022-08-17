@@ -23,10 +23,14 @@ url("../fonts/bootstrap-icons.woff?30af91bf14e37666a085fb8a161ff36d") format("wo
   /* content: url("https://i.imgur.com/3uYMDu7.gif"); */
   content: url('../images/Logo-FindJobLatam.gif');
 }
-.profilePic{
+.profile-pic{
+  display: flex;
+  justify-content: center;
+}
+.members{
   border-radius: 12px;
-  width: 310px;
-  height: 310px;
+  width: 290px;
+  height: 290px;
 }
 .employeeDesc{
   text-align: center;
