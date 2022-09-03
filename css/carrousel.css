@@ -1,5 +1,4 @@
 
-  
   .carrouselcontainer {
     position: absolute;
     height: 300px;
@@ -24,10 +23,11 @@
 
   .carrouseltitle {
     color: rgb(0, 0, 0);
-    font-weight: 300;
+    font-size: medium;
     align-content: center;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial;
+    padding-top: 25px;
   }
   
   .carrouselcard:not(:first-child) {
@@ -47,7 +47,7 @@
   
   .carrouselbar {
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 20px;
     height: 5px;
     width: 125px;
@@ -101,4 +101,15 @@
  .logo {
     height: 60x;
     width: 120px;
+    padding-top: 30px;
+  }
+
+  .overview {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 400px;
+    padding-bottom: 100px;
   }
