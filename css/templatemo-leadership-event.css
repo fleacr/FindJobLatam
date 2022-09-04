@@ -760,6 +760,7 @@ strong {
 .pricing-title-wrap,
 .pricing-body {
   padding: 40px;
+  text-align: center;
 }
 
 .pricing-title-wrap {
