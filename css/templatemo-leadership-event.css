@@ -398,6 +398,14 @@ strong {
 /*---------------------------------------
   HIGHLIGHT              
 -----------------------------------------*/
+
+.partner {
+  background-color: #0d6efd;
+  color: #ffffff;
+  border-radius: 4%;
+  max-width: fit-content;
+  border: solid 1px black;
+}
 .highlight {
   background: var(--navbar-bg-color);
   padding-bottom: 16px;
